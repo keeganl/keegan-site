@@ -1,0 +1,12 @@
+.aboutContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: 'Belgrano', sans-serif;
+    font-size: 1.4em;
+    line-height: 2;
+    padding: .5em 5em;
+  }
+}
