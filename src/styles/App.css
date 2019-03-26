@@ -27,6 +27,37 @@
   color: #02B6E2;
 }
 
+/**
+ * ReSass.
+ *
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for seven different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE:
+ *	@include r(240)  { }
+ *	@include r(320)  { }
+ *	@include r(480)  { }
+ *	@include r(768)  { }
+ *	@include r(1024) { }
+ *	@include r(1140) { }
+ *	@include r(1280) { }
+ *  @include r(1500) { }
+ *
+ * CSS content goes inside {} brackets. These mixins should be used inside
+ * a class definition. For example:
+ *
+ * The following CSS will hide the .header on screen width 320px and above.
+ * .header {
+ * 	  @include r(320)  { display: none; }
+ * }
+ *
+ * @author  Ahmad Awais (https://github.com/ahmadawais)
+ * @link    https://github.com/ahmadawais/ReSass.git
+ * @version 1.0.0
+ */
 .aboutContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,6 +81,37 @@
   padding: .5em 5em;
 }
 
+/**
+ * ReSass.
+ *
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for seven different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE:
+ *	@include r(240)  { }
+ *	@include r(320)  { }
+ *	@include r(480)  { }
+ *	@include r(768)  { }
+ *	@include r(1024) { }
+ *	@include r(1140) { }
+ *	@include r(1280) { }
+ *  @include r(1500) { }
+ *
+ * CSS content goes inside {} brackets. These mixins should be used inside
+ * a class definition. For example:
+ *
+ * The following CSS will hide the .header on screen width 320px and above.
+ * .header {
+ * 	  @include r(320)  { display: none; }
+ * }
+ *
+ * @author  Ahmad Awais (https://github.com/ahmadawais)
+ * @link    https://github.com/ahmadawais/ReSass.git
+ * @version 1.0.0
+ */
 .timelineContainer {
   margin-top: 1.5em;
   display: -webkit-box;
@@ -67,7 +129,57 @@
           align-items: center;
 }
 
+/**
+ * ReSass.
+ *
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for seven different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE:
+ *	@include r(240)  { }
+ *	@include r(320)  { }
+ *	@include r(480)  { }
+ *	@include r(768)  { }
+ *	@include r(1024) { }
+ *	@include r(1140) { }
+ *	@include r(1280) { }
+ *  @include r(1500) { }
+ *
+ * CSS content goes inside {} brackets. These mixins should be used inside
+ * a class definition. For example:
+ *
+ * The following CSS will hide the .header on screen width 320px and above.
+ * .header {
+ * 	  @include r(320)  { display: none; }
+ * }
+ *
+ * @author  Ahmad Awais (https://github.com/ahmadawais)
+ * @link    https://github.com/ahmadawais/ReSass.git
+ * @version 1.0.0
+ */
 .contactContainer, .formContainer {
+  font-family: 'Belgrano', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5vw;
+}
+
+.centerLabel {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,6 +193,44 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0.5em 0;
+}
+
+.formLabel {
+  margin: 1em;
+  font-size: 1.5em;
+}
+
+.formItem {
+  color: #141414;
+  background-color: #FFF;
+  width: 20vw;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  border: 0;
+}
+
+.formButton {
+  cursor: pointer;
+  color: #FFF;
+  background-color: #02B6E2;
+  padding: 1em 3.5em;
+  margin: 1em;
+  border-radius: 0.5em;
+  border: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.formButton:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footerContainer {
+  background-color: #3D3D3D;
 }
 
 body {

@@ -4,11 +4,20 @@ class Contact extends Component {
   render() {
     return (
       <div className="contactContainer">
-        <h1>Contact</h1>
+        <div className="centerLabel">
+          <h1>Contact</h1>
+
+        </div>
         <form className="formContainer" action="https://formspree.io/keeganlk.7@gmail.com" method="POST">
-          <input type="text" name="name" />
-          <input type="email" name="_replyto" />
-          <input type="submit" value="Send" />
+          <label className="formLabel" htmlFor="name">Name:</label>
+          <input className="formItem" type="text" name="name" />
+          <label className="formLabel" htmlFor="name">Email:</label>
+          <input className="formItem" type="email" name="_replyto" />
+          <label className="formLabel" htmlFor="name">Message:</label>
+          <textarea name="message" id="message" className="formItem" cols="30" rows="10"></textarea>
+          <div className="centerLabel">
+            <input id="submit" className="formButton" type="submit" value="Send" />
+          </div>
         </form>
       </div>
     )

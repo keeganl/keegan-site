@@ -1,6 +1,49 @@
+@import "_resass.scss";
+
 .contactContainer, .formContainer {
+  font-family: 'Belgrano', sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5vw;
+}
+
+.centerLabel {
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  margin: 0.5em 0;
+}
+
+.formLabel {
+  margin: 1em;
+  font-size: 1.5em;
+}
+
+.formItem {
+  color: #141414;
+  background-color: #FFF;
+  width: 20vw;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  border: 0;
+}
+
+.formButton {
+  cursor: pointer;
+  color: #FFF;
+  background-color: #02B6E2;
+  padding: 1em 3.5em;
+  margin: 1em;
+  border-radius: 0.5em;
+  border: 0;
+  transition: 0.4s;
+}
+
+.formButton:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
 }
