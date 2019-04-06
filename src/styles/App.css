@@ -129,6 +129,40 @@
           align-items: center;
 }
 
+.vertical-timeline-element-title {
+  color: #141414;
+}
+
+.vertical-timeline-element-subtitle {
+  color: #02B6E2;
+}
+
+.vertical-timeline-element-content {
+  color: #141414;
+}
+
+.vertical-timeline-element-date {
+  opacity: 1 !important;
+  color: #FFF !important;
+}
+
+.projectsContainer {
+  margin-top: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /**
  * ReSass.
  *
@@ -161,7 +195,6 @@
  * @version 1.0.0
  */
 .contactContainer, .formContainer {
-  font-family: 'Belgrano', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,7 +208,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 5vw;
+  margin: 0 5vw;
 }
 
 .centerLabel {
@@ -193,7 +226,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.5em 0;
 }
 
 .formLabel {
@@ -211,6 +243,8 @@
 }
 
 .formButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7em;
   cursor: pointer;
   color: #FFF;
   background-color: #02B6E2;

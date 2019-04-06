@@ -1,12 +1,11 @@
 @import "_resass.scss";
 
 .contactContainer, .formContainer {
-  font-family: 'Belgrano', sans-serif;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
-  margin: 5vw;
+  margin: 0 5vw;
 }
 
 .centerLabel {
@@ -15,7 +14,6 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  margin: 0.5em 0;
 }
 
 .formLabel {
@@ -33,6 +31,8 @@
 }
 
 .formButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7em;
   cursor: pointer;
   color: #FFF;
   background-color: #02B6E2;
