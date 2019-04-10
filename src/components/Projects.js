@@ -22,6 +22,22 @@ export default class componentName extends Component {
             minus ipsa, delectus repudiandae. Asperiores pariatur deserunt
             fuga optio unde corporis magni ut?"
         />
+        <ProjCard
+          name="Orbit"
+          link="https://github.com/keeganl/orbit"
+          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+            veniam dolores deleniti, omnis expedita voluptas harum numquam
+            minus ipsa, delectus repudiandae. Asperiores pariatur deserunt
+            fuga optio unde corporis magni ut?"
+        />
+        <ProjCard
+          name="Jot"
+          link="https://github.com/keeganl/Jot."
+          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+            veniam dolores deleniti, omnis expedita voluptas harum numquam
+            minus ipsa, delectus repudiandae. Asperiores pariatur deserunt
+            fuga optio unde corporis magni ut?"
+        />
       </div>
     );
   }
