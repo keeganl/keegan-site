@@ -14,6 +14,13 @@
   margin: 3em 15em;
   box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
   border-radius: 1em;
+  width: 1200px;
+  max-width: 1200px;
+}
+
+.tagname {
+  font-size: 1.2em;
+  font-family: 'Belgrano', sans-serif;
 }
 
 .proj-card > h4 > a {
