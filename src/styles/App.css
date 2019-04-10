@@ -223,7 +223,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 5vw;
+  margin-bottom: 2em;
 }
 
 .centerLabel {
@@ -251,20 +251,21 @@
 .formItem {
   color: #141414;
   background-color: #FFF;
-  width: 20vw;
-  padding: 1.5em;
+  width: 40vw;
+  padding: 2em;
   border-radius: 0.5em;
   border: 0;
+  font-size: 1em;
 }
 
 .formButton {
   font-family: 'Montserrat', sans-serif;
-  font-size: .7em;
+  font-size: 1em;
   cursor: pointer;
   color: #FFF;
   background-color: #02B6E2;
-  padding: 1em 3.5em;
-  margin: 1em;
+  padding: 2em 5em;
+  margin: 2.7em;
   border-radius: 0.5em;
   border: 0;
   -webkit-transition: 0.4s;

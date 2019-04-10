@@ -10,18 +10,18 @@ class TimelinePath extends Component {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2015 - 2016"
-            iconStyle={{ background: "#FF6B6B", color: "#fff" }}
+            date="January 2019 - Present"
+            iconStyle={{ background: "#FA9C39", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Optical Integrity
+              Jellyfish Health
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              R&D Technician
+              Development Intern
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Creative Direction, User Experience, Visual Design, SEO,
+              Online Marketing
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -42,18 +42,18 @@ class TimelinePath extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="January 2019 - Present"
-            iconStyle={{ background: "#FA9C39", color: "#fff" }}
+            date="2015 - 2016"
+            iconStyle={{ background: "#FF6B6B", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Jellyfish Health
+              Optical Integrity
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Development Intern
+              R&D Technician
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO,
-              Online Marketing
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

@@ -8,7 +8,7 @@ class ProjCard extends Component {
         <h4>
           Link:
           <a
-            href="https://interior-design-wirls.herokuapp.com/"
+            href={this.props.link}
             target="_blank"
             rel="noopener noreferrer"
           >
