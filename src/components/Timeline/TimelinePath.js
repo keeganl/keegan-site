@@ -49,7 +49,7 @@ class TimelinePath extends Component {
               Jellyfish Health
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Development Intern
             </h4>
             <p>
               Creative Direction, User Experience, Visual Design, SEO,
