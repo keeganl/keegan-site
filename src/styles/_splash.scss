@@ -1,0 +1,12 @@
+.splash-bg {
+  background-image: url("../assets/nyc.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  mask-image: linear-gradient(to bottom, #191919 70%, #191919 100%);
+}
+
+.splash-text {
+  padding: 50vh;
+  text-align: center;
+  z-index: 2;
+}

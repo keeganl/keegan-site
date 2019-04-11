@@ -1,7 +1,12 @@
 .navContainer {
   display: flex;
+  position: fixed;
+  margin: 0;
+  width: 100%;
   justify-content: space-evenly;
-  background-color: #3D3D3D;
+  background-color: #222222;
+  z-index: 10;
+  font-weight: 800;
 }
 .navItem:first-child {
   font-family: 'Belgrano', sans-serif;

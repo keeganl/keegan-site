@@ -5,12 +5,14 @@ import Timeline from './components/Timeline/Timeline';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './styles/App.css';
+import Splash from './components/Splash';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <NavBar />
+        <Splash />
         <About />
         <Timeline />
         <Projects />
