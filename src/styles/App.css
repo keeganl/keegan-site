@@ -180,6 +180,10 @@
   font-family: 'Belgrano', sans-serif;
 }
 
+.proj-card > p {
+  font-weight: 500;
+}
+
 .proj-card > h4 > a {
   margin-left: 0.5em;
   color: #FF6B6B;
@@ -276,7 +280,7 @@
 .formItem {
   color: #141414;
   background-color: #FFF;
-  width: 40vw;
+  width: 60vw;
   padding: 2em;
   border-radius: 0.5em;
   border: 0;
@@ -312,5 +316,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #191919;
   color: #FFF;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=App.css.map */

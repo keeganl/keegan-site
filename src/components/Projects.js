@@ -13,7 +13,8 @@ export default class componentName extends Component {
             "js",
             "node",
             "react",
-            "sass"
+            "sass",
+            "sketch"
           ]}
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             veniam dolores deleniti, omnis expedita voluptas harum numquam
@@ -26,8 +27,8 @@ export default class componentName extends Component {
           tagline="An application that lets you view the 3D models on your computer in gallery format. Built with Electron"
           tech={[
             "js",
-            "react",
-            "sass"
+            "node",
+            "sketch"
           ]}
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             veniam dolores deleniti, omnis expedita voluptas harum numquam
@@ -40,8 +41,9 @@ export default class componentName extends Component {
           tagline="An application that lets you view the 3D models on your computer in gallery format. Built with Electron."
           tech={[
             "js",
-            "react",
-            "sass"
+            "electron",
+            "sass",
+
           ]}
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             veniam dolores deleniti, omnis expedita voluptas harum numquam
@@ -54,8 +56,9 @@ export default class componentName extends Component {
           tagline="A whiteboard that lives in the menubar."
           tech={[
             "js",
-            "react",
-            "sass"
+            "electron",
+            "sass",
+            "sketch"
           ]}
           description=" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla numquam, temporibus distinctio laudantium, quo quod autem dolorum doloremque accusantium, animi dolore sequi voluptatibus quisquam. Placeat fugit libero eligendi quisquam nam."
         />
