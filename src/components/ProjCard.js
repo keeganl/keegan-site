@@ -1,9 +1,31 @@
 import React, { Component } from 'react'
 
 class ProjCard extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      pics: []
+    }
+  }
+  componentDidMount() {
+    console.log(this.props.tech);
+    this.setState({
+      pics: [...this.props.tech],
+    })
+
+  }
+
   render() {
-    const images = this.props.tech.map(image => (
-      <img src={image} width="40px" height="40px" />
+    let images = this.state.pics.map((image, index) => (
+        <img
+          className="techImgs"
+          key={index}
+          src={require(`../assets/${image}.svg`)}
+          alt="tech"
+          width="40px"
+          height="40px"
+        />
     ));
     return (
       <div className="proj-card">
@@ -20,7 +42,14 @@ class ProjCard extends Component {
           </a>
         </h4>
         <p>{this.props.description}</p>
-        {images}
+        <div className="tech-container">
+          <div className="tech-item">
+            <h4>Tech Used: </h4>
+          </div>
+          <div className="tech-item">
+            {images}
+          </div>
+        </div>
       </div>
     );
   }
