@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 
 class Splash extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+
+    }
+  }
   render() {
     return (
       <React.Fragment>
         <div className="splash-bg">
-          <div className="splash-text">
-            <h1>AAA</h1>
-          </div>
         </div>
       </React.Fragment>
     )

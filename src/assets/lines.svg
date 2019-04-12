@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1750px" height="899px" viewBox="0 0 1750 899" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Lines</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lines" transform="translate(1.000000, 1.000000)">
+            <path d="M588.666732,375.845188 L1366.37859,872.5 L588.666732,375.845188 L1.25285438,480.736891 L588.666732,375.845188 Z M588.666732,375.845188 L1.25285438,0.716629174 L588.666732,375.845188 L1746.61566,169.075755 L588.666732,375.845188 Z M1746.61566,169.075755 L1366.37859,872.5 L1746.61566,169.075755 Z M1.25285438,480.736891 L315.427263,895.677636 L1.25285438,480.736891 Z" id="Path-21" stroke="#2ECBE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M486.518348,347.051873 L1.25285438,433.665517 L486.518348,347.051873 L1326.51266,872.5 L486.518348,347.051873 Z M486.518348,347.051873 L1.25285438,43.4999999 L486.518348,347.051873 L1746.61566,122.140723 L486.518348,347.051873 Z M1.25285438,433.665517 L367.791789,895.677636 L1.25285438,433.665517 Z M1746.61566,122.140723 L1326.51266,872.5 L1746.61566,122.140723 Z" id="Path-19" stroke="#455D84" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M391.92511,321.449469 L1283.76971,871.5 L391.92511,321.449469 L1746.61566,78.1431939 L391.92511,321.449469 Z M391.92511,321.449469 L1.25285438,80.4999999 L391.92511,321.449469 L1.25285438,391.615317 L391.92511,321.449469 Z M1.25285438,391.615317 L414.605118,895.677636 L1.25285438,391.615317 Z M1746.61566,78.1431939 L1283.76971,871.5 L1746.61566,78.1431939 Z" id="Path-17" stroke="#FC4748" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Path-18" transform="translate(840.990863, 396.764890) rotate(-23.000000) translate(-840.990863, -396.764890) translate(508.990863, 148.264890)" fill-rule="nonzero">
+                <g id="path-1-link" fill="#000000">
+                    <polygon id="path-1" points="265.349658 0.265082 0.680193 496.444814 663.31805 379.628137"></polygon>
+                </g>
+                <g id="path-1-link" fill="#FFCE49">
+                    <polygon id="path-1" points="265.349658 0.265082 0.680193 496.444814 663.31805 379.628137"></polygon>
+                </g>
+            </g>
+            <g id="Path-20" transform="translate(0.934256, 0.276764)"></g>
+            <g id="Path-25" transform="translate(0.934256, 0.276764)"></g>
+            <circle id="Oval" fill="#FC4748" fill-rule="nonzero" cx="799.960193" cy="670.919413" r="41"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="1123.23143" cy="339.393125" r="41"></circle>
+        </g>
+    </g>
+</svg>

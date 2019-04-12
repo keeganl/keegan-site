@@ -32,19 +32,51 @@
   color: #02B6E2;
 }
 
+/**
+ * ReSass.
+ *
+ * MIXIN: Responsive Media Queries.
+ *
+ * Creates responsive media queries for seven different screen sizes.
+ * These are based on min-width which means if x is the size then your
+ * CSS will affect any device with screen width x and above.
+ *
+ * USAGE:
+ *	@include r(240)  { }
+ *	@include r(320)  { }
+ *	@include r(480)  { }
+ *	@include r(768)  { }
+ *	@include r(1024) { }
+ *	@include r(1140) { }
+ *	@include r(1280) { }
+ *  @include r(1500) { }
+ *
+ * CSS content goes inside {} brackets. These mixins should be used inside
+ * a class definition. For example:
+ *
+ * The following CSS will hide the .header on screen width 320px and above.
+ * .header {
+ * 	  @include r(320)  { display: none; }
+ * }
+ *
+ * @author  Ahmad Awais (https://github.com/ahmadawais)
+ * @link    https://github.com/ahmadawais/ReSass.git
+ * @version 1.0.0
+ */
 .splash-bg {
   background-image: url("../assets/nyc.png");
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #191919), to(#191919));
-  -webkit-mask-image: linear-gradient(to bottom, #191919 70%, #191919 100%);
-          mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #191919), to(#191919));
-          mask-image: linear-gradient(to bottom, #191919 70%, #191919 100%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#191919));
+  -webkit-mask-image: linear-gradient(to bottom, #191919 0%, #191919 100%);
+          mask-image: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#191919));
+          mask-image: linear-gradient(to bottom, #191919 0%, #191919 100%);
+  padding: 60vh;
 }
 
 .splash-text {
-  padding: 50vh;
   text-align: center;
+  font-size: 2em;
   z-index: 2;
 }
 
@@ -79,27 +111,44 @@
  * @link    https://github.com/ahmadawais/ReSass.git
  * @version 1.0.0
  */
+.about {
+  text-align: center;
+}
+
 .aboutContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: .5em 5em;
 }
 
 .aboutContainer p {
   font-family: 'Belgrano', sans-serif;
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 2;
-  padding: .5em 5em;
+}
+
+.about-item {
+  margin: 2em;
+}
+
+.me > img {
+  margin-bottom: 1em;
+}
+
+.Typewriter__wrapper, .Typewriter__cursor {
+  font-family: 'Belgrano', sans-serif;
+  font-size: 1.1em;
 }
 
 /**
@@ -197,7 +246,7 @@
 }
 
 .tagname {
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'Belgrano', sans-serif;
 }
 

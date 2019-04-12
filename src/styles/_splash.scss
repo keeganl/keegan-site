@@ -1,12 +1,16 @@
+@import "./resass.scss";
+
 .splash-bg {
   background-image: url("../assets/nyc.png");
   background-size: cover;
   background-repeat: no-repeat;
-  mask-image: linear-gradient(to bottom, #191919 70%, #191919 100%);
+  mask-image: linear-gradient(to bottom, #191919 0%, #191919 100%);
+  padding: 60vh;
 }
 
+
 .splash-text {
-  padding: 50vh;
   text-align: center;
+  font-size: 2em;
   z-index: 2;
 }

@@ -1,14 +1,33 @@
 import React, { Component } from 'react'
+import Typewriter from 'typewriter-effect';
+import me from '../assets/ME.png';
+
 
 class About extends Component {
   render() {
     return (
-      <div className="aboutContainer">
-        <h1>About</h1>
-        <p>
-          I am an experienced Software Engineer with a demonstrated history of working in the medical device industry. Skilled in web development with Javascript and frameworks such as React and Electron. Along with this a strong command of 3D modeling software, Autodesk Fusion 360. Strong engineering professional pursuing a Bachelor of Science - BS focused in Computer Science from Florida State University.
-        </p>
-      </div>
+      <React.Fragment>
+        <h1 className="about">About</h1>
+        <div className="aboutContainer">
+          <div className="me about-item">
+            <img src={me} alt="me" width="300px" height="400px" />
+          </div>
+          <div className="about-item">
+            <Typewriter
+              className="intro"
+              options={{
+                strings: ["Hello, I'm Keegan."],
+                delay: "natural",
+                autoStart: true,
+                loop: true,
+              }}
+            />
+            <p>
+              I am a JavaScript developer who enjoys design and photography.
+          </p>
+          </div>
+        </div>
+      </React.Fragment>
     )
   }
 }

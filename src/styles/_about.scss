@@ -1,14 +1,33 @@
 @import "_resass.scss";
 
+.about {
+  text-align: center;
+}
+
 .aboutContainer {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: .5em 5em;
   p {
     font-family: 'Belgrano', sans-serif;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 2;
-    padding: .5em 5em;
+
   }
 }
+
+.about-item {
+  margin: 2em;
+}
+
+.me > img {
+  margin-bottom: 1em;
+}
+
+.Typewriter__wrapper, .Typewriter__cursor {
+  font-family: 'Belgrano', sans-serif;
+  font-size: 1.1em;
+}
+
