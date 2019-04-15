@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,YAAY;CAC1B",
+    "sources": [
+        "geocities.scss"
+    ],
+    "names": [],
+    "file": "geocities.css"
+}
