@@ -31,6 +31,7 @@ class ProjCard extends Component {
       <div className="proj-card">
         <h2>{this.props.name}</h2>
         <h4 className="tagname">{this.props.tagline}</h4>
+        <iframe alt="GIF" title={this.props.name} src={this.props.gif} width="480px" height="300px" frameBorder="0" allowFullScreen/>
         <h4>
           Link:
           <a

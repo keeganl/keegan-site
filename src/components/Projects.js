@@ -60,6 +60,7 @@ export default class componentName extends Component {
             "sass",
             "sketch"
           ]}
+          gif="https://giphy.com/embed/2uwtC0mxOQxGj1I7BR"
           description=" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla numquam, temporibus distinctio laudantium, quo quod autem dolorum doloremque accusantium, animi dolore sequi voluptatibus quisquam. Placeat fugit libero eligendi quisquam nam."
         />
       </div>
