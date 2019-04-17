@@ -9,7 +9,7 @@ class About extends Component {
         <h1 className="about">About</h1>
         <div className="aboutContainer">
           <div className="me about-item">
-            <img src={me} alt="me" width="300px" height="400px" />
+            <img src={me} alt="me" width="350px" height="450px" />
           </div>
           <div className="about-item">
             <Typewriter

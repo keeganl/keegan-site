@@ -9,13 +9,7 @@ export default class componentName extends Component {
         <ProjCard
           name="Interior Design"
           link="https://interior-design-wirls.herokuapp.com/"
-          tech={[
-            "js",
-            "node",
-            "react",
-            "sass",
-            "sketch"
-          ]}
+          tech={["js", "node", "react", "sass", "sketch"]}
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             veniam dolores deleniti, omnis expedita voluptas harum numquam
             minus ipsa, delectus repudiandae. Asperiores pariatur deserunt
@@ -25,11 +19,8 @@ export default class componentName extends Component {
           name="Discover Weekly Dump"
           link="https://github.com/keeganl/Discover-Weekly-Dump"
           tagline="An application that lets you view the 3D models on your computer in gallery format. Built with Electron"
-          tech={[
-            "js",
-            "node",
-            "sketch"
-          ]}
+          tech={["js", "node", "sketch"]}
+          gif="https://giphy.com/embed/3DvkNZEy0VSTbDmMb4"
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             veniam dolores deleniti, omnis expedita voluptas harum numquam
             minus ipsa, delectus repudiandae. Asperiores pariatur deserunt
@@ -39,12 +30,8 @@ export default class componentName extends Component {
           name="Orbit"
           link="https://github.com/keeganl/orbit"
           tagline="An application that lets you view the 3D models on your computer in gallery format. Built with Electron."
-          tech={[
-            "js",
-            "electron",
-            "sass",
-
-          ]}
+          tech={["js", "electron", "sass"]}
+          gif="https://giphy.com/embed/uFhZgHQLyvDWUVXnTP"
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
             veniam dolores deleniti, omnis expedita voluptas harum numquam
             minus ipsa, delectus repudiandae. Asperiores pariatur deserunt
@@ -54,12 +41,7 @@ export default class componentName extends Component {
           name="Jot"
           link="https://github.com/keeganl/Jot."
           tagline="A whiteboard that lives in the menubar."
-          tech={[
-            "js",
-            "electron",
-            "sass",
-            "sketch"
-          ]}
+          tech={["js", "electron", "sass", "sketch"]}
           gif="https://giphy.com/embed/2uwtC0mxOQxGj1I7BR"
           description=" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla numquam, temporibus distinctio laudantium, quo quod autem dolorum doloremque accusantium, animi dolore sequi voluptatibus quisquam. Placeat fugit libero eligendi quisquam nam."
         />
