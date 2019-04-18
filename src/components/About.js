@@ -22,16 +22,13 @@ class About extends Component {
               }}
             />
             <p>
-              I am a JavaScript developer who enjoys design and photography.
-              Currently I am interning at Jellyfish Health as a development
-              team intern building patient experience software with
-              AngularJS. In my free time I like to write React applications.
+              I am a JavaScript developer from Panama City, FL. I am interning at Jellyfish Health building patient experience software with
+              AngularJS. In my free time I like to write React apps and learn more about the ways to use JavaScript.
               Most of these applications stem from the want to add small
-              utilties to my day to day life.
+              utilties to my day to day life. I think that this is some of the best motivation for projects because it allows you to become deeply invested in what you are doing very quickly.
             </p>
-            <h3>Interests</h3>
+            <h3>Recent Interests:</h3>
             <p>GraphQL</p>
-            <p>WebAssembly</p>
             <p>Docker</p>
             <h3 className="other-contact">Other ways to reach me</h3>
             <div className="socials">

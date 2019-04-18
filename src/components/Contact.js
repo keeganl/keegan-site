@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <div className="contactContainer">
         <div className="centerLabel">
-          <h1>Contact</h1>
+          <h1>Get in touch 👋🏼</h1>
         </div>
         <form
           className="formContainer"
