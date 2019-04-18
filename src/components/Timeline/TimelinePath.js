@@ -20,7 +20,7 @@ class TimelinePath extends Component {
               Development Intern
             </h4>
             <p>
-              Built patient experience software with AngularJS.
+              I build patient experience software with AngularJS.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -35,7 +35,7 @@ class TimelinePath extends Component {
               Software Developer
             </h4>
             <p>
-              Built laser software with Electron.js.
+              I built Holmium laser software with Electron.js.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -50,7 +50,7 @@ class TimelinePath extends Component {
               R&D Technician
             </h4>
             <p>
-              Fiber production and fiber design work using Autodesk Fusion 360.
+              Collaborated with engineers on fiber production and fiber design work using Autodesk Fusion 360.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
