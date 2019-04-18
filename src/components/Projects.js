@@ -10,6 +10,7 @@ export default class componentName extends Component {
           name="Interior Design"
           link="https://interior-design-wirls.herokuapp.com/"
           tech={["js", "node", "react", "sass", "sketch"]}
+          gif="https://giphy.com/embed/ZxLcCFGV1xjPYaMzV0"
           description="This project was an assignment for my Software Engineering course at FSU. The app lets you generate color palettes based off of color theory principles or lets you grab the palette from an image that you like. You can then take any of those colors and search for furniture of that color."
         />
         <ProjCard
