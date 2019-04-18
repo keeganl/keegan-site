@@ -31,6 +31,7 @@ class About extends Component {
             </p>
             <h3>Interests</h3>
             <p>GraphQL</p>
+            <p>WebAssembly</p>
             <p>Docker</p>
             <h3 className="other-contact">Other ways to reach me</h3>
             <div className="socials">

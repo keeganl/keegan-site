@@ -69,20 +69,16 @@ a {
  * @version 1.0.0
  */
 .splash-bg {
+  width: 100vw;
+  height: 100vh;
   background-image: url("../assets/nyc.png");
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#191919));
   -webkit-mask-image: linear-gradient(to bottom, #191919 0%, #191919 100%);
           mask-image: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#191919));
           mask-image: linear-gradient(to bottom, #191919 0%, #191919 100%);
-  padding: 60vh;
-}
-
-.splash-text {
-  text-align: center;
-  font-size: 2em;
-  z-index: 2;
 }
 
 /**
@@ -135,6 +131,7 @@ a {
       -ms-flex-align: start;
           align-items: flex-start;
   padding: .5em 5em;
+  margin-bottom: 2em;
 }
 
 .aboutContainer p {
