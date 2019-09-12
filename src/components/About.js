@@ -58,12 +58,6 @@ class About extends Component {
                   <i className="fab fa-dribbble fa-2x" />
                 </a>
               </div>
-              <div className="social-item">
-                <h4>Dribbble</h4>
-                <a href="https://dribbble.com/keeganl">
-                  <i className="far fa-file-alt fa-2x" />
-                </a>
-              </div>
             </div>
           </div>
         </div>
