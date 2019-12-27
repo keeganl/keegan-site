@@ -6,7 +6,7 @@
     "react": "^16.8.4",
     "react-anime": "^2.2.0",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8",
+    "react-scripts": "3.3.0",
     "react-vertical-timeline-component": "^2.3.1",
     "serve": "^10.1.2",
     "typewriter-effect": "^2.5.3"
